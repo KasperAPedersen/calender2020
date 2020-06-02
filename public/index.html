@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calender 2020</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link rel="stylesheet" href="inc/styling/css/index.css" type="text/css">
+    </head>
+    <body>
+        <div id="swoop">
+            
+            <div id="calender">
+                <h1 id="monthName">January</h1>
+                <div class="dayViewerTab">
+                    <p>Mon</p>
+                </div>
+                <div class="dayViewerTab">
+                    <p>Tue</p>
+                </div>
+                <div class="dayViewerTab">
+                    <p>Wed</p>
+                </div>
+                <div class="dayViewerTab">
+                    <p>Thu</p>
+                </div>
+                <div class="dayViewerTab">
+                    <p>Fri</p>
+                </div>
+                <div class="dayViewerTab">
+                    <p>Sat</p>
+                </div>
+                <div class="dayViewerTab">
+                    <p>Sun</p>
+                </div>
+                <div id="createDaysHere"></div>
+                <div class="floatFixer"></div>
+            </div>
+            <div id="dayActivities">
+                <div class="addActivity">
+                    <form onsubmit="event.preventDefault();">
+                        <input type="time" id="timeField">
+                        <textarea class="activityListItem" id="messageField">Activity Message</textarea>
+                        <button type="submit" id="addActivityBtn">Add</button>
+                    </form>
+                    
+                </div>
+            </div>
+            <div class="floatFixer"></div>
+        </div>
+        <script src="inc/styling/js/index.js"></script>
+    </body>
+</html>
