@@ -1,0 +1,28 @@
+{
+  "name": "calender2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KasperAPedersen/calender2020.git"
+  },
+  "author": "KasperAPedersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KasperAPedersen/calender2020/issues"
+  },
+  "homepage": "https://github.com/KasperAPedersen/calender2020#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
