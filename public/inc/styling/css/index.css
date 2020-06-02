@@ -1,0 +1,142 @@
+/* -- Commons -- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Times New Roman';
+}
+
+#swoop {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+.floatFixer {
+    clear: both;
+}
+
+/* -- Calender -- */
+#calender {
+    background-color: rgba(0,0,0,.1);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* -- Month tabs -- */
+#monthName {
+    text-align: center;
+}
+
+/* -- Day tabs -- */
+.dayViewerTab {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.dayTab, .dayViewerTab {
+    width: calc(100% / 7);
+    text-align: center;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.dayTab:hover {
+    background-color: rgba(0,0,255, 0.2);
+}
+
+.todayTab {
+    background-color: rgba(0,0,255, 0.2);
+}
+
+.viewingDayTab {
+    background-color: rgba(0,0,255, 0.2);
+}
+
+/* -- Day activities -- */
+#dayActivities>.activityTab {
+    background-color: rgba(0,0,0,.1);
+    position: relative;
+    min-width: 150px;
+    max-width: 20%;
+    min-height: 150px;
+    float: left;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+}
+
+#dayActivities>.activityTab>.time {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(0,0,0,.2);
+    font-size: 20px;
+}
+#dayActivities>.activityTab>i {
+    position: absolute;
+    top: 2.5px;
+    right: 2.5px;
+    color: rgba(0,0,0,.5);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#dayActivities>.activityTab>textarea {
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    resize: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+
+#dayActivities>.addActivity {
+    background-color: rgba(0,0,0,.1);
+    position: relative;
+    min-width: 150px;
+    max-width: 20%;
+    min-height: 150px;
+    float: left;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    padding: 5px;
+}
+
+#dayActivities>.addActivity>form>input[type="time"] {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-left: 2px solid rgba(0,0,255, 0.2);
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+#dayActivities>.addActivity>form>button {
+    background-color: transparent;
+    border: 1px solid transparent;
+    
+    background-color: rgba(0,0,255, 0.2);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#dayActivities>.addActivity>form>textarea {
+    background-color: transparent;
+    border: 1px solid transparent;
+    resize: none;
+    border-left: 2px solid rgba(0,0,255, 0.2);
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#dayActivities>.addActivity>form>textarea:focus {
+    outline: none;
+}
